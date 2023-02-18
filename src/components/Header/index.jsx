@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom"
-
+import style from './header.module.css'
 export const Header = () => {
     return(
-        <header>
+        <header className={style.Header}>
               <div>
                   logo
               </div>
